@@ -15,8 +15,8 @@ Vagrant.configure(2) do |config|
             ansible.groups = ANSIBLE_GROUPS
         end
         config.vm.provider "virtualbox" do |vb|
-          vb.memory = "12288"
-          vb.cpus = "4" 
+          vb.memory = "6144"
+          vb.cpus = "3" 
         end
     end
 
@@ -28,8 +28,8 @@ Vagrant.configure(2) do |config|
             ansible.groups = ANSIBLE_GROUPS
         end
         config.vm.provider "virtualbox" do |vb|
-          vb.memory = "12288"
-          vb.cpus = "4" 
+          vb.memory = "6144"
+          vb.cpus = "3" 
         end
     end
 
@@ -41,8 +41,8 @@ Vagrant.configure(2) do |config|
             ansible.groups = ANSIBLE_GROUPS
         end
         config.vm.provider "virtualbox" do |vb|
-          vb.memory = "12288"
-          vb.cpus = "4" 
+          vb.memory = "3072"
+          vb.cpus = "3" 
         end
     end
 
@@ -54,8 +54,8 @@ Vagrant.configure(2) do |config|
             ansible.groups = ANSIBLE_GROUPS
         end
         config.vm.provider "virtualbox" do |vb|
-          vb.memory = "12288"
-          vb.cpus = "4" 
+          vb.memory = "3072"
+          vb.cpus = "3" 
         end
     end
 end
